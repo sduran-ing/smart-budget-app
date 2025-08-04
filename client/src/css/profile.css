@@ -1,0 +1,107 @@
+/* Container for the entire profile section */
+.profile-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Section title */
+.profile-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #343a40;
+}
+
+/* Card-like sections for updating user info or managing categories */
+.profile-card {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+/* Form styling */
+.profile-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile-card label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #495057;
+}
+
+.profile-card input,
+.profile-card select {
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.profile-card button {
+  align-self: flex-start;
+  background-color: #5c9ead;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-card button:hover {
+  background-color: #468498;
+}
+
+/* Category list display */
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.category-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.category-list li span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212529;
+}
+
+/* Buttons inside category rows */
+.category-list button {
+  margin-left: 10px;
+}
+
+/* Modal content customization if needed */
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-body p {
+  margin-bottom: 0;
+}
+
+.form-message.red {
+  color: #d9534f;
+  font-weight: bold;
+  margin-top: 10px;
+}
