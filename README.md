@@ -1,6 +1,11 @@
 # Smart Budget App
 
-This is a MERN stack budgeting and expense tracking app.
+CPCM – 2025S T3
+CSD 3103 - Full Stack JavaScript
+
+By:
+Santiago D. - C0928413
+Chisom I. - C0929772
 
 ## Quick Start
 
@@ -10,3 +15,8 @@ Clone the repository and run:
 
 ```bash
 npm run install-all
+
+## 🛠️ Running the app
+
+```bash
+npm run dev
